@@ -1,0 +1,42 @@
+HTML(Hyper Text Markup Language)
+
+1. it is used to provide basic stcture for the webpages
+2. it is used to creatic static webpages
+3. it is the backbone for all webdevelopment
+
+--invection and creator:
+1. it was invented by tim berners lee in the year 1989
+
+HTML 1:1990
+HTML 2:1995
+HTML 3:1997
+HTML 4:1999
+XHTML 1.0:2000
+HTML 5:2014
+
+Structure of HTML:
+<!Doctype> this perticuler HTML page was no HTML 5
+<html>
+<head>meta tags, links , tile
+<title>name</title>it is used to name the webpages
+</head>
+<body>
+place the elements
+</body>
+</html>
+
+Element:
+the content along with the opening and closing
+
+tag:
+it is noting predefined properties
+1. paired (opening tag(<html>) and closing tag(</html>))
+2. unpaired tag(<img src=''/>)(self closing tags)
+
+attribute:
+arrname:'arrvalue' (style)
+
+
+types fo elements:
+1.block level
+2. inline 

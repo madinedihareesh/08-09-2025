@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration <Form></Form></title>
+</head>
+<body>
+    <h1>Registration</h1>
+    <form action="#" autocomplete="off">
+        <label for="Fname">FirstName:</label>
+        <input type="text" id="Fname" required placeholder="Enter FirstName">
+        <br>
+        <label for="Lname">Lastname:</label>
+        <input type="text" id="Lname" placeholder="Lasr Name">
+        <br>
+        <label for="dob">Date Of Birth:</label>
+        <input type="date" id="dob">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="example@domin.com">
+        <br>
+        <label for="mobile">Mobile:</label>
+        <input type="tel" id="mobile" placeholder="Enter uour mobile number">
+        <br>
+        <label for="age">Age:</label>
+        <input type="number" id="age" placeholder="enter age">
+        <br>
+        <label for="clr">Choose color</label>
+        <input type="color" id="clr">
+        <br>
+        <label for="ran">Choose range</label>
+        <input type="range" id="ran">
+        <br>
+        <label for="add"> Address</label>
+        <textarea name="add" id="add" cols="100" rows="10" placeholder="enter your address"></textarea>
+        <br>
+        <label for="file">choose file</label>
+        <input type="file" id="file">
+        <br>
+        <label for="naction">Choose Nactionality <span style="color: red;">*</span></label>
+        <select name="nactionality" id="naction">
+            <option value="">------select option------</option>
+            <option value="indian">Indian</option>
+            <option value="amarican">Amarican</option>
+            <option value="italian">Itanlian</option>
+            <option value="german">German</option>
+        </select>
+        <label for="state">Select State</label>
+        <input type="text" id="state" list="lists" placeholder="select state">
+        <datalist id="lists">
+            <option value="AP">Andhra Pradesh</option>
+            <option value="TG">Telengana</option>
+            <option value="TN">TamilNadu</option>
+            <option value="KA">Karnataka</option>
+        </datalist>
+        <br>
+        <label for="name">Gender:</label>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender">
+        <label for="fe">Female</label>
+        <input type="radio" id="fe" name="gender">
+        <label for="oth">Other</label>
+        <input type="radio" id="oth" name="gender">
+
+        <br>
+        <label for="choice">Choose your hobbies:</label>
+        <label for="cri">Criket</label>
+        <input type="checkbox" id="cri">
+        <label for="mus">Music</label>
+        <input type="checkbox" id="mus">
+        <label for="stu">Studty</label>
+        <input type="checkbox" id="Studty">
+
+        <br>
+
+        <button type="submit">submit</button>
+        <button type="reset">clear</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
